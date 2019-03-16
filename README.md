@@ -20,7 +20,7 @@ Also it finds some other stuff. That's not a problem as long as it reliably pick
 [stab-1]: https://github.com/nwesar/deep_hockey/raw/master/part-1/data/classify-thres-0.3.jpg "1st classification test, Threshold 0.3"
 
 
-## Part 2 - Analyze the acquired data
+## Part 2 - Analyze the learned data
 To begin with, it would be interesting to just figure out how efficient the practices are: can we calculate 
 how large part of the practice the kids spend moving and standing still (waiting, instruction, etc)?
 

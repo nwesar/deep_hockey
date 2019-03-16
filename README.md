@@ -4,7 +4,7 @@ Play around with deep learning. Basic ide is to use ML to analyze kids hockey pr
 # Deep learning algos and stuff
 Use Anaconda, Tensorflow and OpenCV as described in [Image Detection with YOLO-v2](https://www.youtube.com/watch?v=PyjBd7IDYZs&list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM&index=1)
 
-# What will I do
+# Game plan
 ## Part 1 - Get friends with YOLO
 Need first to get familiar with YOLO and see what it can manage on its own, without any training.
 We start with the weights recommended by [Mark Jay](https://www.youtube.com/channel/UC2W0aQEPNpU6XrkFCYifRFQ) on YT: [YOLOv2 608x608](https://pjreddie.com/darknet/yolo/)

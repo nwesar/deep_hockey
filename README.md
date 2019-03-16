@@ -2,7 +2,9 @@
 Play around with deep learning. Basic ide is to use ML to analyze kids hockey practices.
 
 # Deep learning algos and stuff
-Use Anaconda, Tensorflow and OpenCV as described in [Image Detection with YOLO-v2](https://www.youtube.com/watch?v=PyjBd7IDYZs&list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM&index=1)
+Use Python Anaconda, Tensorflow and OpenCV as described in [Image Detection with YOLO-v2](https://www.youtube.com/watch?v=PyjBd7IDYZs&list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM&index=1).
+
+We start by employing the YOLO-v2 deep learning algo. It looks nice.
 
 # Game plan
 ## Part 1 - Get friends with YOLO
@@ -17,7 +19,12 @@ Also it finds some other stuff. That's not a problem as long as it reliably pick
 
 [stab-1]: https://github.com/nwesar/deep_hockey/raw/master/part-1/data/classify-thres-0.3.jpg "1st classification test, Threshold 0.3"
 
-## Part 2 - Train YOLO to classify new objects
+
+## Part 2 - Analyze the acquired data
+To begin with, it would be interesting to just figure out how efficient the practices are: can we calculate 
+how large part of the practice the kids spend moving and standing still (waiting, instruction, etc)?
+
+## Part 3 - Train YOLO to classify new objects
 With the initial weights, YOLO would successfully classify players as "Person". That is good enough. 
 But we need it to recognize also other things that are interesting for our upcoming analysis:
 * pucks
@@ -25,13 +32,7 @@ But we need it to recognize also other things that are interesting for our upcom
 * E/N-zones
 * faceoff points for distance reference to use when calculating skating distance, speed, etc?
 
-Shit this is going to be a long one...
-
-## Part 3 - Analyze the acquired data
-To begin with, it would be interesting to just figure out how efficient the practices are: can we calculate 
-how large part of the practice the kids spend moving and standing still (waiting, instruction, etc)?
-
-In order to do this we need 
+Cheesus, this is going to be a long one...
 
 ## Part N - Complete analysis
 Envisioned "analysis" workflow:

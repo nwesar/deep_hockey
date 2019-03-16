@@ -11,6 +11,7 @@ Rough outline of plan:
 3) Write some code
 
 Envisioned "analysis" workflow:
+
 0) Install some cameras at hockey rink
 1) Record kids hockey practice video (fancy automation stuf goes here)
 2) Use YOLO to detect players, pucks, etc in video. Store in "workable format"

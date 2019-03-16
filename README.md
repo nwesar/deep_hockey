@@ -1,5 +1,5 @@
 # deep_hockey
-Play around with deep learning. Basic ide is to use ML to analyze kids hockey practices.
+Play around with deep learning. Basic idea is to use ML to analyze kids hockey practices.
 
 # Deep learning algos and stuff
 Use Python Anaconda, Tensorflow and OpenCV as described in [Image Detection with YOLO-v2](https://www.youtube.com/watch?v=PyjBd7IDYZs&list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM&index=1).

@@ -2,14 +2,13 @@
 Play around with deep learning. Basic idea is to use ML to analyze kids hockey practices.
 
 # Deep learning algos and stuff
-Use Python Anaconda, Tensorflow and OpenCV as described in [Image Detection with YOLO-v2](https://www.youtube.com/watch?v=PyjBd7IDYZs&list=PLX-LrBk6h3wSGvuTnxB2Kj358XfctL4BM&index=1).
+Use Python Anaconda, Tensorflow and OpenCV with help from [ivangrov](YOLOv3-Series/[part 1]YOLOv3_with_OpenCV/OD.py).
 
 We start by employing the YOLO-v2 deep learning algo. It looks nice.
 
 # Game plan
 ## Part 1 - Get friends with YOLO
 Need first to get familiar with YOLO and see what it can manage on its own, without any training.
-We start with the weights recommended by [Mark Jay](https://www.youtube.com/channel/UC2W0aQEPNpU6XrkFCYifRFQ) on YT: [YOLOv2 608x608](https://pjreddie.com/darknet/yolo/)
 
 ### First stab at it
 Very nice indeed. YOLO with the recommended weights picks out players without problems. At Threshold 0.1 it picks out lots of stuff, mistakes legs and hockey sticks for skis.
@@ -17,15 +16,15 @@ Also it finds some other stuff. That's not a problem as long as it reliably pick
 
 ![alt text][stab-1]
 
-[stab-1]: https://github.com/nwesar/deep_hockey/raw/master/part-1/data/classify-thres-0.3.jpg "1st classification test, Threshold 0.3"
+[stab-1]: https://github.com/nwesar/deep_hockey/raw/master/data/classify-thres-0.3.jpg "1st classification test, Threshold 0.3"
 
 
 ## Part 2 - Analyze the learned data
-To begin with, it would be interesting to just figure out how efficient the practices are: can we calculate 
+To begin with, it would be interesting to just figure out how efficient the practices are: can we calculate
 how large part of the practice the kids spend moving and standing still (waiting, instruction, etc)?
 
 ## Part 3 - Train YOLO to classify new objects
-With the initial weights, YOLO would successfully classify players as "Person". That is good enough. 
+With the initial weights, YOLO would successfully classify players as "Person". That is good enough.
 But we need it to recognize also other things that are interesting for our upcoming analysis:
 * pucks
 * the rink itself?

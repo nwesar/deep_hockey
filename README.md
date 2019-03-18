@@ -2,9 +2,9 @@
 Play around with deep learning. Basic idea is to use ML to analyze kids hockey practices.
 
 # Deep learning algos and stuff
-Use Python Anaconda, Tensorflow and OpenCV with help from [ivangrov](YOLOv3-Series/[part 1]YOLOv3_with_OpenCV/OD.py).
+Use Python Anaconda, Tensorflow and OpenCV with help from [ivangrov](https://github.com/ivangrov/YOLOv3-Series/blob/master/%5Bpart%201%5DYOLOv3_with_OpenCV/OD.py).
 
-We start by employing the YOLO-v2 deep learning algo. It looks nice.
+We start by employing the YOLO-v3 deep learning algo. It looks nice.
 
 # Game plan
 ## Part 1 - Get friends with YOLO
@@ -16,7 +16,7 @@ Also it finds some other stuff. That's not a problem as long as it reliably pick
 
 ![alt text][stab-1]
 
-[stab-1]: https://github.com/nwesar/deep_hockey/raw/master/data/classify-thres-0.3.jpg "1st classification test, Threshold 0.3"
+[stab-1]: https://github.com/nwesar/deep_hockey/raw/master/data/classify-thres-0.3.jpg "1st classification test, Yolov2, Threshold 0.3"
 
 
 ## Part 2 - Analyze the learned data
